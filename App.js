@@ -1,6 +1,6 @@
 
-const {randomNumber} = require('./CallingNumber/random_number')
+const {generateBingoCard}  = require('./GeneratingCard/generateBingoCard')
 
 
-console.log(randomNumber());
+console.log(generateBingoCard ());
 console.log('hola mundo');
